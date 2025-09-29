@@ -1,0 +1,61 @@
+{
+  "name": "strapi-plugin-raw-query",
+  "version": "1.1.4",
+  "description": "Raw Query allows you to send raw query strings to the database.",
+  "strapi": {
+    "name": "raw-query",
+    "displayName": "Raw Query",
+    "icon": "plug",
+    "description": "Raw Query allows you to send raw query strings to the database.",
+    "kind": "plugin"
+  },
+  "scripts": {
+    "release": "bumpp --tag --push --all"
+  },
+  "dependencies": {
+    "@uiw/codemirror-extensions-langs": "4.21.9",
+    "@uiw/codemirror-theme-dracula": "4.21.9",
+    "@uiw/react-codemirror": "4.21.9",
+    "codemirror": "^6.0.1",
+    "react-json-to-table": "0.1.7"
+  },
+  "peerDependencies": {
+    "@strapi/strapi": "^4.4.0"
+  },
+  "author": {
+    "name": "Tobias Thiele",
+    "email": "info@tobias-thiele.de",
+    "url": "https://tobias-thiele.de"
+  },
+  "maintainers": [
+    {
+      "name": "Tobias Thiele",
+      "email": "info@tobias-thiele.de",
+      "url": "https://tobias-thiele.de"
+    }
+  ],
+  "engines": {
+    "node": ">=12.x.x <=20.x.x",
+    "npm": ">=6.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/creazy231/strapi-plugin-raw-query.git"
+  },
+  "bugs": {
+    "url": "https://github.com/creazy231/strapi-plugin-raw-query/issues"
+  },
+  "homepage": "https://github.com/creazy231/strapi-plugin-raw-query",
+  "keywords": [
+    "raw",
+    "query",
+    "strapi",
+    "plugin",
+    "sql",
+    "editor"
+  ],
+  "license": "MIT",
+  "devDependencies": {
+    "bumpp": "^9.2.0"
+  }
+}
